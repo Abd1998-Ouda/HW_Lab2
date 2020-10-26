@@ -1,0 +1,124 @@
+.c {
+  width: 100%;
+  height: 300px;
+  background-color: #dee3e7;
+}
+
+body {
+  background-color:lightgreen;
+}
+
+.divD{
+  position: absolute;
+  left: 40%;
+  top: 200px;
+}
+
+.img{
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+form.style input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.style button {
+  float: left;
+  width: 15%;
+  box-sizing: content-box;
+  padding: 10px;
+  background: #6db3f5;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form.style button:hover {
+  background: #0b7dda;
+}
+
+form.style::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #dee3e7;
+}
+
+.li {
+  float: right;
+  border-right:1px solid #bbb;
+}
+
+
+a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover:not(.active) {
+  background-color: rgb(231, 233, 236);
+}
+
+a:hover{
+  background-color: lightcyan;
+}
+
+
+.active {
+  background-color: #3fb843;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+.flex-container {
+    margin-top: 0%;
+  }
+  
+  .flex {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin: 30px;
+    position: relative;
+    border: solid 2px rgb(134, 230, 206) ;
+    float: left;
+    color:black;
+    background-color: rgb(173, 107, 168);
+    justify-content: space-around;
+  }
+  
+
+  .cd {
+    padding: 50px;
+    
+}
+
+
+.header {
+  width: 40%;
+  height: 15px;
+  margin-top: auto;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
